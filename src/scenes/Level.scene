@@ -1,0 +1,101 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "dfdc8b16-3e32-43ea-a9e6-39cd4b42acc1",
+            "label": "tilesprite_1",
+            "components": [],
+            "texture": {
+                "key": "bg"
+            },
+            "x": 400,
+            "y": 300,
+            "width": 800,
+            "height": 600
+        },
+        {
+            "type": "Image",
+            "id": "8d5dbba6-8ef5-455a-8099-62d15c0698b7",
+            "label": "logo",
+            "components": [],
+            "texture": {
+                "key": "logo"
+            },
+            "x": 400,
+            "y": 120
+        },
+        {
+            "type": "Image",
+            "id": "9a256ae8-d9a4-4468-b6ab-0b8f97cb5abe",
+            "label": "paper",
+            "components": [
+                "PushOnClick"
+            ],
+            "texture": {
+                "key": "paper"
+            },
+            "x": 400,
+            "y": 450
+        },
+        {
+            "type": "Image",
+            "id": "4cc89843-bcde-405e-8735-9c73e8461efd",
+            "label": "rock",
+            "components": [
+                "PushOnClick"
+            ],
+            "texture": {
+                "key": "rock"
+            },
+            "x": 260,
+            "y": 520
+        },
+        {
+            "type": "Image",
+            "id": "6b04b1f4-b289-49e6-b97b-afaf2166e2dd",
+            "label": "scissors",
+            "components": [
+                "PushOnClick"
+            ],
+            "texture": {
+                "key": "scissors"
+            },
+            "x": 540,
+            "y": 520
+        },
+        {
+            "type": "Image",
+            "id": "d74c0f0b-1172-4aee-8f4d-9057fb910a45",
+            "label": "callToAction",
+            "components": [],
+            "texture": {
+                "key": "callToAction"
+            },
+            "x": 400,
+            "y": 560
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "lists": [
+        {
+            "id": "70e7271d-e9fc-4751-a808-1706518a6ec3",
+            "label": "list"
+        }
+    ]
+}

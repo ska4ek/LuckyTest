@@ -1,0 +1,51 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/callToAction.png",
+                "type": "image",
+                "key": "callToAction"
+            },
+            {
+                "url": "assets/FufuSuperDino.png",
+                "type": "image",
+                "key": "FufuSuperDino"
+            },
+            {
+                "url": "assets/paper.png",
+                "type": "image",
+                "key": "paper"
+            },
+            {
+                "url": "assets/rock.png",
+                "type": "image",
+                "key": "rock"
+            },
+            {
+                "url": "assets/scissors.png",
+                "type": "image",
+                "key": "scissors"
+            },
+            {
+                "url": "assets/statstext.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "statstext"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

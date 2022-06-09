@@ -1,0 +1,60 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "c3f96e58-30cc-4baa-b237-c51c3a4777f6",
+            "label": "tilesprite_1",
+            "components": [],
+            "texture": {
+                "key": "bg"
+            },
+            "x": 400,
+            "y": 300,
+            "width": 800,
+            "height": 600
+        },
+        {
+            "type": "Text",
+            "id": "2ce42443-5227-4c9b-b498-e81f9a21cde3",
+            "label": "progress",
+            "components": [
+                "PreloadText"
+            ],
+            "x": 400,
+            "y": 469,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "0%",
+            "fontSize": "30px"
+        },
+        {
+            "type": "Image",
+            "id": "2bda92d6-a9c9-46d3-a86a-abdc5aed12ba",
+            "label": "logo",
+            "components": [],
+            "texture": {
+                "key": "logo"
+            },
+            "x": 400,
+            "y": 120
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
